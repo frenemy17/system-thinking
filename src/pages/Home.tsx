@@ -6,48 +6,45 @@ import PageHeader from '../components/PageHeader';
 import SectionContainer from '../components/SectionContainer';
 import ContentTransition from '../components/ContentTransition';
 
+
 const Home: React.FC = () => {
   return (
     <>
-      {/* Hero Section with Placeholder */}
-      <div className="min-h-screen flex items-center justify-center pt-20 pb-10 bg-gradient-to-b from-dark to-dark-light">
-        <div className="container-custom">
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 0.8 }}
-            className="flex flex-col items-center text-center"
-          >
-            <motion.h1 
-              initial={{ opacity: 0, y: -20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: 0.2 }}
-              className="text-4xl md:text-6xl font-bold mb-6 leading-tight"
-            >
-              Digital Addiction Among Teenagers in India
-            </motion.h1>
             
-            <motion.p 
-              initial={{ opacity: 0, y: -20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: 0.4 }}
-              className="text-xl md:text-2xl text-gray-300 mb-12"
-            >
-              A System Thinking Approach
-            </motion.p>
-            
-            <motion.div 
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ duration: 0.8, delay: 0.6 }}
-              className="w-full max-w-4xl h-80 md:h-[500px] rounded-lg bg-dark-lighter flex items-center justify-center border border-dark-lighter"
-            >
-              <p className="text-gray-400 text-lg">[Insert 3D Brain Model Here]</p>
-            </motion.div>
-          </motion.div>
-        </div>
-      </div>
+            <div className="min-h-screen flex items-center justify-center pt-20 pb-10 bg-gradient-to-b from-dark to-dark-light relative">
+  {/* Background Video */}
+  <video
+    className="absolute top-0 left-0 w-full h-full object-cover"
+    autoPlay
+    muted
+    loop
+    playsInline
+  >
+    <source src="src/videos/Screen Recording 2025-05-03 at 7.22.40 PM.mov" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
 
+  {/* Content */}
+  <div className="relative z-10 text-center text-white -mt-10">
+    <motion.h1
+      initial={{ opacity: 0, y: -20 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.5, delay: 0.2 }}
+      className="text-4xl md:text-6xl font-bold mb-6 leading-tight "
+    >
+      Digital Addiction Among Teenagers in India
+    </motion.h1>
+    
+    <motion.p
+      initial={{ opacity: 0, y: -20 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.5, delay: 0.4 }}
+      className="text-xl md:text-2xl text-white mb-12"
+    >
+      A System Thinking Approach
+    </motion.p>
+  </div>
+</div>
       {/* Introduction Section */}
       <SectionContainer title="Introduction to the Problem">
         <ContentTransition delay={0}>
