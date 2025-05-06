@@ -45,19 +45,19 @@ const Process: React.FC = () => {
   const tools = [
     {
       name: "Systems Mapping Software",
-      description: "Kumu and Loopy were used to create interactive causal loop diagrams."
+      description: "Vensim was used to create interactive causal loop diagrams."
     },
     {
       name: "Qualitative Analysis Tools",
-      description: "NVivo was used for coding and analyzing interview transcripts with experts and stakeholders."
+      description: "Perplexity and ChatGPT was used for coding and analyzing interview transcripts with experts and stakeholders."
     },
     {
       name: "Statistical Analysis Software",
-      description: "R and SPSS were used to analyze survey data on technology usage patterns among Indian teenagers."
+      description: "Google Notebook LM was used to analyze survey data on technology usage patterns among Indian teenagers."
     },
     {
       name: "Literature Review Databases",
-      description: "Academic databases including PubMed, JSTOR, and Google Scholar were used to access existing research."
+      description: "Academic databases including PubMed, JSTOR, and Google Scholar through Perplexity was used to access existing research."
     }
   ];
 
@@ -106,8 +106,8 @@ const Process: React.FC = () => {
       </SectionContainer>
 
       <SectionContainer title="Data Collection">
-        <ContentTransition>
-          <div className="bg-dark-light p-6 rounded-lg mb-6">
+        {/* <ContentTransition> */}
+          {/* <div className="bg-dark-light p-6 rounded-lg mb-6">
             <h3 className="text-xl font-semibold mb-4">Primary Research</h3>
             <ul className="bullet-list">
               <li>Surveys of 500+ teenagers (13-19 years) across urban and rural India</li>
@@ -115,8 +115,8 @@ const Process: React.FC = () => {
               <li>Focus groups with parents and educators</li>
               <li>Expert interviews with psychologists, technology addiction specialists, and educational consultants</li>
             </ul>
-          </div>
-        </ContentTransition>
+          </div> */}
+        {/* </ContentTransition> */}
 
         <ContentTransition delay={1}>
           <div className="bg-dark-light p-6 rounded-lg">
