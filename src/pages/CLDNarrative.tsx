@@ -110,8 +110,8 @@ const CLDNarrative: React.FC = () => {
         <ContentTransition>
           <div className="w-full bg-dark-lighter p-8 rounded-lg border border-dark-light mb-8 flex items-center justify-center">
             <div className="text-center">
-              <p className="text-gray-400 mb-4">Causal Loop Diagram would be displayed here</p>
-              <p className="text-sm text-gray-500">(The diagram shows interconnections between all variables with reinforcing and balancing loops)</p>
+              <img src="src/videos/Screenshot 2025-05-06 at 11.29.20 AM.png" alt="Causal Loop Diagram" className="w-full h-auto" />
+             
             </div>
           </div>
         </ContentTransition>
