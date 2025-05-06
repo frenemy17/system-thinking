@@ -203,7 +203,7 @@ const CLDNarrative: React.FC = () => {
         <ContentTransition>
           <div className="w-full bg-dark-lighter p-8 rounded-lg border border-dark-light mb-8 flex items-center justify-center">
             <div className="text-center">
-              <img src="videos/Screenshot 2025-05-06 at 11.29.20 AM.png" alt="Causal Loop Diagram" className="w-full h-auto" />
+              <img src="/image.png" alt="Causal Loop Diagram" className="w-full h-auto" />
              
             </div>
           </div>
