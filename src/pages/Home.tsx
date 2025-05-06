@@ -20,7 +20,7 @@ const Home: React.FC = () => {
     loop
     playsInline
   >
-    <source src="/Screen Recording 2025-05-03 at 7.22.40 PM.mov" type="video/mp4" />
+    <source src="https://asset.cloudinary.com/dmaukcggi/a2fb01133b92b7a5ce6e3459b0312ad9" type="video/mp4" />
     Your browser does not support the video tag.
   </video>
 
