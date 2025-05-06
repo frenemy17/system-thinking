@@ -11,18 +11,9 @@ const Home: React.FC = () => {
   return (
     <>
             
-            <div className="min-h-screen flex items-center justify-center pt-20 pb-10 bg-gradient-to-b from-dark to-dark-light relative">
+            <div className="min-h-screen flex items-center justify-center pt-20 pb-10 bg-[url(https://i.pinimg.com/originals/c1/ba/ab/c1baab9a9fc4d84b6aee9e3dd845ac90.gif)] bg-no-repeat bg-center bg-cover relative">
   {/* Background Video */}
-  <video
-    className="absolute top-0 left-0 w-full h-full object-cover"
-    autoPlay
-    muted
-    loop
-    playsInline
-  >
-    <source src="https://asset.cloudinary.com/dmaukcggi/a2fb01133b92b7a5ce6e3459b0312ad9" type="video/mp4" />
-    Your browser does not support the video tag.
-  </video>
+  
 
   {/* Content */}
   <div className="relative z-10 text-center text-white -mt-10">
